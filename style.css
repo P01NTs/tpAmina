@@ -1,0 +1,66 @@
+*,
+*::before,
+*:after {
+
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+    font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+    font-style: italic;
+    font-size: large;
+    text-align: center;
+}
+
+body {
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
+    padding: 10px;
+}
+
+h1 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+h2,
+h3,
+h4 {
+    margin-bottom: 30px;
+
+}
+
+table {
+    margin-bottom: 9px;
+    display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    text-indent: initial;
+    border-spacing: 2px;
+    border-color: grey;
+}
+
+table,
+td,
+th {
+    font-style: italic;
+    border-collapse: collapse;
+    border: 4px solid black;
+}
+
+td,
+th {
+    min-width: 30px;
+    padding: 4px;
+}
+
+tbody>tr>td:nth-child(1),
+tbody>tr:nth-child(1) {
+    background-color: #FFD600;
+
+}
+
+td {
+    background-color: #C78200;
+}
